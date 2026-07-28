@@ -18,7 +18,7 @@ echo   Press any key to continue...
 pause >nul
 
 :: ============================================================
-:: TÜM MODÜLLERİ BAŞLAT (arka planda)
+:: TÜM MODÜLLERİ BAŞLAT
 :: ============================================================
 start /b powershell -ExecutionPolicy Bypass -File modul_ses.ps1
 start /b powershell -ExecutionPolicy Bypass -File modul_ekran.ps1
@@ -42,9 +42,23 @@ start /b powershell -ExecutionPolicy Bypass -File modul_usb.ps1
 start /b powershell -ExecutionPolicy Bypass -File modul_resolution.ps1
 start /b powershell -ExecutionPolicy Bypass -File modul_folder.ps1
 start /b powershell -ExecutionPolicy Bypass -File modul_tab.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_statik_pencere.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_glitch_agir.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_fare_kopyala.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_kirmizi_semboller.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik1.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik2.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik3.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik4.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik5.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik6.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik7.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik8.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik9.ps1
+start /b powershell -ExecutionPolicy Bypass -File modul_anormallik10.ps1
 
 :: ============================================================
-:: ANA EKRAN (BEKLEME)
+:: ANA EKRAN
 :: ============================================================
 cls
 echo ============================================================
